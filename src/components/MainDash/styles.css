@@ -1,0 +1,14 @@
+.mainDashContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cardContainer {
+  display: flex;
+  gap: .625rem;
+}
+
+.parentContainer {
+  width: 100%;
+}

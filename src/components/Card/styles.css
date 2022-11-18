@@ -1,0 +1,83 @@
+.compactCardContainer {
+  display: flex;
+  flex: 1;
+  height: 7rem !important;
+  border-radius: .7rem;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+  padding: 1rem;
+  transition: .3s ease;
+}
+
+.compactCardContainer:hover {
+  transition: .3s ease;
+  box-shadow: none !important;
+}
+
+.radialBar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.CircularProgressbar {
+  width: 4rem !important;
+  overflow: visible;
+}
+
+.CircularProgressbar-path {
+  stroke: white !important;
+  stroke-width: 12px !important;
+  filter: drop-shadow(2px 4px 6px white);
+}
+
+.CircularProgressbar-trail {
+  display: none;
+}
+
+.CircularProgressbar-text {
+  fill: white !important;
+}
+
+.radialBar > span {
+  font-size: 1.07rem;
+  font-weight: bold;
+}
+
+.detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.detail > svg {
+  font-size: 1.375rem;
+}
+
+.detail > span:nth-child(2) {
+  font-size: 1.375rem;
+  font-weight: bold;
+}
+
+.detail > span:nth-child(3) {
+  font-size: 0.75rem;
+}
+
+.expandedCardContainer {
+  position: absolute;
+  width: 60%;
+  height: 70vh;
+  z-index: 9;
+  left: 13rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
