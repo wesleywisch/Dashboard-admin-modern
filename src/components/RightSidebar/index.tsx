@@ -1,3 +1,4 @@
+import { CustomerReview } from '../CustomerReview';
 import { Updates } from '../Updates';
 
 import './styles.css';
@@ -13,6 +14,8 @@ export function RightSidebar() {
 
       <div>
         <h3>Customer review</h3>
+
+        <CustomerReview />
       </div>
     </div>
   )
