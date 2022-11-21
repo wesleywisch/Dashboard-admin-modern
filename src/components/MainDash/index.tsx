@@ -1,6 +1,7 @@
 import { cardItens } from '../../data/cardItens';
 
 import { Card } from '../Card';
+import { Table } from '../Table';
 
 import './styles.css';
 
@@ -23,6 +24,8 @@ export function MainDash() {
           </div>
         ))}
       </div>
+
+      <Table />
     </div>
   )
 }

@@ -24,7 +24,7 @@ export interface CardProps {
 }
 
 export function Card({ barValue, color, icon, series, title, value }: CardProps) {
-  const [expanded, setExpanded] = useState(true);
+  const [expanded, setExpanded] = useState(false);
 
   return (
     <AnimateSharedLayout>
