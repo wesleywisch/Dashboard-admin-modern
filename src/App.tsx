@@ -2,6 +2,7 @@ import './App.css';
 
 import { Sidebar } from './components/Sidebar';
 import { MainDash } from './components/MainDash';
+import { RightSidebar } from './components/RightSidebar';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="containerGlass">
         <Sidebar />
         <MainDash />
+        <RightSidebar />
       </div>
     </div>
   );
