@@ -27,3 +27,20 @@
 .expandedChartContainer {
   width: 70%;
 }
+
+@media screen and (max-width: 1200px) {
+  .expandedCardContainer {
+    top: 2rem;
+    height: 70vh;
+    left: 6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .expandedCardContainer {
+    width: 80%;
+    height: 50%;
+    top: 8rem;
+    left: 0.94rem;
+  }
+}

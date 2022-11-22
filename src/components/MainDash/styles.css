@@ -12,3 +12,28 @@
 .parentContainer {
   width: 100%;
 }
+
+@media screen and (max-width: 1200px) {
+  .mainDashContainer {
+    justify-content: flex-start;
+    margin-top: 2rem;
+  }
+
+  .cardContainer {
+    flex-direction: column;
+  }
+
+  .parentContainer {
+    height: 9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainDashContainer {
+    align-items: center;
+  }
+
+  .cardContainer {
+    width: 90%;
+  }
+}

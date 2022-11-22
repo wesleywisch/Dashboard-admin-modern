@@ -67,3 +67,51 @@
   background-color: var(--pink);
   margin-right: calc(1rem - 8px);
 }
+
+.bars {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .menuItem > span {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar-container {
+    position: fixed;
+    z-index: 9;
+    background: #ffe0e0;
+    width: 55%;
+    height: 100%;
+    padding-right: 1rem;
+  }
+
+  .menuItem > span {
+    display: block;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  .menuItem:last-child {
+    position: relative;
+    margin-top: 2rem;
+  }
+
+  .bars {
+    display: flex;
+    position: fixed;
+    top: 2rem;
+    z-index: 9;
+    background: #ffe0e0;
+    padding: .625rem;
+    border-radius: .625rem;
+  }
+}
